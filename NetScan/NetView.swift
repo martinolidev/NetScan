@@ -23,7 +23,7 @@ struct NetView: View {
             Text("IP address")
             TextField("IP address to scan", text: $ip)
                 .textFieldStyle(.roundedBorder)
-                .keyboardType(.numberPad)
+                .keyboardType(.numbersAndPunctuation)
         }
         
         HStack(spacing: 48){
@@ -31,7 +31,7 @@ struct NetView: View {
                 .frame(alignment: .leading)
             TextField("All ports by the default", text: $ports)
                 .textFieldStyle(.roundedBorder)
-                .keyboardType(.numberPad)
+                .keyboardType(.numbersAndPunctuation)
         }
         
         Divider()
