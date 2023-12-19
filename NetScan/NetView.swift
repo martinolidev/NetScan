@@ -50,6 +50,8 @@ struct NetView: View {
                         .font(.title2)
                 )
         }
+        
+        ResultsView()
     }
 }
 
