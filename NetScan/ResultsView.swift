@@ -46,6 +46,10 @@ struct ResultsView: View {
         .font(.system(size: 20))
         
         Spacer()
+        
+        Text("The developer of this software Martin Martinez Alvarez is not responsible for any misuse or damage caused by this application. Users are advised to use it ethically and legally, and it is their responsibility to comply with all applicable laws and regulations.")
+            .font(.caption)
+            .foregroundStyle(Color.gray)
     }
 }
 
