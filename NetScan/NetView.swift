@@ -18,6 +18,8 @@ struct NetView: View {
         HStack {
             Text("IP address")
             TextField("IP address to scan", text: $ip)
+                .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
         }
     }
 }
