@@ -18,8 +18,14 @@ struct ResultsView: View {
                 .font(.title)
             Text("192.168.1.1")
                 .font(.title)
-        }
+        }.padding(.bottom)
         
+        
+        HStack(spacing: 100) {
+            Text("PORTS")
+            Text("STATUS")
+        }
+        .bold()
     }
 }
 
