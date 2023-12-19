@@ -40,6 +40,8 @@ struct ResultsView: View {
             VStack (spacing: 15) {
                 ForEach(openPorts, id: \.self) { port in
                     Text("OPEN")
+                        .foregroundStyle(Color.green)
+                        .bold()
                 }
             }
         }
