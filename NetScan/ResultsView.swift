@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ResultsView: View {
+    let openPorts: [String] = ["80", "443", "8080", "22"]
+    
     var body: some View {
         Divider()
             .padding(.vertical)
@@ -26,6 +28,24 @@ struct ResultsView: View {
             Text("STATUS")
         }
         .bold()
+        .padding(.bottom)
+        .font(.title3)
+        
+        HStack(spacing: 100) {
+            VStack(spacing: 15) {
+                ForEach(openPorts, id: \.self) { port in
+                    Text(port)
+                }
+            }
+            VStack (spacing: 15) {
+                ForEach(openPorts, id: \.self) { port in
+                    Text("OPEN")
+                }
+            }
+        }
+        .font(.system(size: 20))
+        
+        Spacer()
     }
 }
 
