@@ -14,5 +14,5 @@ struct NetView: View {
 }
 
 #Preview {
-    NetView()
+    ContentView()
 }

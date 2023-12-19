@@ -15,6 +15,7 @@
 		88EFDE722B323D980021E4BE /* NetScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE712B323D980021E4BE /* NetScanUITests.swift */; };
 		88EFDE742B323D980021E4BE /* NetScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE732B323D980021E4BE /* NetScanUITestsLaunchTests.swift */; };
 		88EFDE822B323E300021E4BE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 88EFDE812B323E300021E4BE /* Alamofire */; };
+		88EFDE842B3244160021E4BE /* NetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE832B3244160021E4BE /* NetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		88EFDE6D2B323D980021E4BE /* NetScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EFDE712B323D980021E4BE /* NetScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetScanUITests.swift; sourceTree = "<group>"; };
 		88EFDE732B323D980021E4BE /* NetScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88EFDE832B3244160021E4BE /* NetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				88EFDE562B323D970021E4BE /* NetScanApp.swift */,
 				88EFDE582B323D970021E4BE /* ContentView.swift */,
+				88EFDE832B3244160021E4BE /* NetView.swift */,
 				88EFDE5A2B323D980021E4BE /* Assets.xcassets */,
 				88EFDE5C2B323D980021E4BE /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EFDE842B3244160021E4BE /* NetView.swift in Sources */,
 				88EFDE592B323D970021E4BE /* ContentView.swift in Sources */,
 				88EFDE572B323D970021E4BE /* NetScanApp.swift in Sources */,
 			);
