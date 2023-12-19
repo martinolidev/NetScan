@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct NetView: View {
+    @State var ip: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("NetScan")
+            .font(.largeTitle)
+            .bold()
+        
+        HStack {
+            Text("IP address")
+            TextField("IP address to scan", text: $ip)
+        }
     }
 }
 
