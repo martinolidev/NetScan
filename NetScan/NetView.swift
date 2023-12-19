@@ -33,6 +33,23 @@ struct NetView: View {
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.numberPad)
         }
+        
+        Divider()
+            .padding(.bottom)
+        
+        Button {
+            //code logic
+        } label: {
+            RoundedRectangle(cornerRadius: 10)
+                .frame(width: 100, height: 40)
+                .foregroundStyle(Color.purple)
+                .overlay(
+                    Text("SCAN")
+                        .foregroundStyle(Color.white)
+                        .bold()
+                        .font(.title2)
+                )
+        }
     }
 }
 
