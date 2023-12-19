@@ -9,10 +9,20 @@ import SwiftUI
 
 struct ResultsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Divider()
+            .padding(.vertical)
+        
+        HStack(spacing: 50) {
+            Text("Results for")
+                .bold()
+                .font(.title)
+            Text("192.168.1.1")
+                .font(.title)
+        }
+        
     }
 }
 
 #Preview {
-    ResultsView()
+    ContentView()
 }
