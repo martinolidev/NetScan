@@ -87,6 +87,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		8810A2A22B4225F6006EC6B0 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		88EFDE4A2B323D970021E4BE = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +117,7 @@
 		88EFDE552B323D970021E4BE /* NetScan */ = {
 			isa = PBXGroup;
 			children = (
+				8810A2A22B4225F6006EC6B0 /* MVVM */,
 				8810A2A12B422598006EC6B0 /* Views */,
 				88EFDE562B323D970021E4BE /* NetScanApp.swift */,
 				88EFDE5A2B323D980021E4BE /* Assets.xcassets */,
