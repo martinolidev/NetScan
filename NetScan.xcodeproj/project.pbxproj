@@ -77,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8810A2A12B422598006EC6B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDE852B3248760021E4BE /* ResultsView.swift */,
+				88EFDE832B3244160021E4BE /* NetView.swift */,
+				88EFDE582B323D970021E4BE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		88EFDE4A2B323D970021E4BE = {
 			isa = PBXGroup;
 			children = (
@@ -100,10 +110,8 @@
 		88EFDE552B323D970021E4BE /* NetScan */ = {
 			isa = PBXGroup;
 			children = (
+				8810A2A12B422598006EC6B0 /* Views */,
 				88EFDE562B323D970021E4BE /* NetScanApp.swift */,
-				88EFDE582B323D970021E4BE /* ContentView.swift */,
-				88EFDE832B3244160021E4BE /* NetView.swift */,
-				88EFDE852B3248760021E4BE /* ResultsView.swift */,
 				88EFDE5A2B323D980021E4BE /* Assets.xcassets */,
 				88EFDE5C2B323D980021E4BE /* Preview Content */,
 			);
