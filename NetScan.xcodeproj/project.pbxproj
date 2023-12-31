@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8810A2A42B422627006EC6B0 /* NetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810A2A32B422627006EC6B0 /* NetModel.swift */; };
 		88EFDE572B323D970021E4BE /* NetScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE562B323D970021E4BE /* NetScanApp.swift */; };
 		88EFDE592B323D970021E4BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE582B323D970021E4BE /* ContentView.swift */; };
 		88EFDE5B2B323D980021E4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDE5A2B323D980021E4BE /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8810A2A32B422627006EC6B0 /* NetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetModel.swift; sourceTree = "<group>"; };
 		88EFDE532B323D970021E4BE /* NetScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EFDE562B323D970021E4BE /* NetScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetScanApp.swift; sourceTree = "<group>"; };
 		88EFDE582B323D970021E4BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		8810A2A22B4225F6006EC6B0 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				8810A2A32B422627006EC6B0 /* NetModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				88EFDE842B3244160021E4BE /* NetView.swift in Sources */,
 				88EFDE862B3248760021E4BE /* ResultsView.swift in Sources */,
 				88EFDE592B323D970021E4BE /* ContentView.swift in Sources */,
+				8810A2A42B422627006EC6B0 /* NetModel.swift in Sources */,
 				88EFDE572B323D970021E4BE /* NetScanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
