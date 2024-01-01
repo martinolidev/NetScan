@@ -17,7 +17,7 @@ class NetModel {
     var portInformation: portContent
     
     init () {
-        portInformation = portContent(portNumbers: ["8080"])
+        portInformation = portContent(portNumbers: ["Example"])
     }
     
     //change the IP address to the one with your server :D
