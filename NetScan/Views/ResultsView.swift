@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ResultsView: View {
-    let openPorts: [String] = ["80", "443", "8080", "22"]
+    let openPorts: [String] 
+    let ipToScan: String
     
     var body: some View {
         Divider()
@@ -18,7 +19,7 @@ struct ResultsView: View {
             Text("Results for")
                 .bold()
                 .font(.title)
-            Text("192.168.1.1")
+            Text(ipToScan)
                 .font(.title)
         }.padding(.bottom)
         
