@@ -11,7 +11,7 @@ class NetViewModel: ObservableObject {
     @Published var response: portContent
     
     init() {
-        response = portContent(portNumbers: ["8080"])
+        response = portContent(portNumbers: ["Scan a device"])
     }
     
     let model = NetModel()

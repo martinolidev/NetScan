@@ -45,7 +45,7 @@ struct NetView: View {
                 )
         }
         
-        ResultsView(openPorts: ["Scan a device"], ipToScan: ip)
+        ResultsView(openPorts: viewModel.response.portNumbers, ipToScan: ip)
     }
 }
 
