@@ -15,15 +15,14 @@ struct portContent: Codable {
 class NetModel {
     
     var portInformation: portContent
-    //Change this IP to your server IP with my API
-    var url: String = "http://192.168.1.147:8080/ip/"
     
     init () {
         portInformation = portContent(portNumbers: ["8080"])
     }
     
+    //change the IP address to the one with your server :D
     func sendInformation(ip: String) -> portContent {
-        AF.request(url, method: .get).validate(statusCode: 200...299).responseDecodable(of: portContent.self) {
+        AF.request("http://192.168.1.147:8080/ip/\(ip)", method: .get).validate(statusCode: 200...299).responseDecodable(of: portContent.self) {
             response in
             
             if let content = response.value {
