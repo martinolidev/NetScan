@@ -9,14 +9,16 @@ import Foundation
 
 class NetViewModel: ObservableObject {
     @Published var response: portContent
+    @Published var ip: String
     
     init() {
         response = portContent(portNumbers: ["Scan a device"])
+        ip = "127.0.0.1"
     }
     
     let model = NetModel()
     
     func makeRequest() {
-        response = model.sendInformation(ip: "192.168.1.147")
+        response = model.sendInformation(ip: ip)
     }
 }
