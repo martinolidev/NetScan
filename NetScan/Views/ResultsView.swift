@@ -31,21 +31,23 @@ struct ResultsView: View {
         .padding(.bottom)
         .font(.title3)
         
-        HStack(spacing: 100) {
-            VStack(spacing: 15) {
-                ForEach(openPorts, id: \.self) { port in
-                    Text(port)
+        ScrollView() {
+            HStack(spacing: 100) {
+                VStack(spacing: 15) {
+                    ForEach(openPorts, id: \.self) { port in
+                        Text(port)
+                    }
+                }
+                VStack (spacing: 15) {
+                    ForEach(openPorts, id: \.self) { port in
+                        Text("OPEN")
+                            .foregroundStyle(Color.green)
+                            .bold()
+                    }
                 }
             }
-            VStack (spacing: 15) {
-                ForEach(openPorts, id: \.self) { port in
-                    Text("OPEN")
-                        .foregroundStyle(Color.green)
-                        .bold()
-                }
-            }
+            .font(.system(size: 20))
         }
-        .font(.system(size: 20))
         
         Spacer()
         
