@@ -18,7 +18,7 @@ class NetViewModel: ObservableObject {
     
     let model = NetModel()
     
-    func makeRequest() {
+    func makeRequest(ip: String) {
         response = model.sendInformation(ip: ip)
     }
 }

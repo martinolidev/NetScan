@@ -32,7 +32,7 @@ struct NetView: View {
             .padding(.bottom)
         
         Button {
-            //code logic
+            viewModel.makeRequest(ip: ip)
         } label: {
             RoundedRectangle(cornerRadius: 10)
                 .frame(width: 100, height: 40)
