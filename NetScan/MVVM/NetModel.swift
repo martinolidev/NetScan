@@ -16,7 +16,7 @@ class NetModel {
     
     var portInformation: portContent
     //Change this IP to your server IP with my API
-    var url: String = "http://127.0.0.1:8080"
+    var url: String = "http://192.168.1.147:8080"
     
     init () {
         portInformation = portContent(ports: ["8080"])
