@@ -20,7 +20,7 @@ struct ResultsView: View {
                 .bold()
                 .font(.title)
             Text(ipToScan)
-                .font(.title)
+                .font(.system(size: 20))
         }.padding(.bottom)
         
         
