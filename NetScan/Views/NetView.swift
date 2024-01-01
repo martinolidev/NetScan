@@ -45,7 +45,7 @@ struct NetView: View {
                 )
         }
         
-        ResultsView(openPorts: ["22", "80", "443"], ipToScan: "192.168.1.1")
+        ResultsView(openPorts: ["22", "80", "443"], ipToScan: ip)
     }
 }
 
