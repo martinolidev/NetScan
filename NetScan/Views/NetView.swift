@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct NetView: View {
+    
+    @ObservedObject var viewModel = NetViewModel()
+    
     @State var ip: String = ""
     
     var body: some View {
