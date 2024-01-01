@@ -18,6 +18,7 @@
 		88EFDE822B323E300021E4BE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 88EFDE812B323E300021E4BE /* Alamofire */; };
 		88EFDE842B3244160021E4BE /* NetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE832B3244160021E4BE /* NetView.swift */; };
 		88EFDE862B3248760021E4BE /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDE852B3248760021E4BE /* ResultsView.swift */; };
+		88F5F3632B4274830036E769 /* NetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5F3622B4274830036E769 /* NetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		88EFDE732B323D980021E4BE /* NetScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		88EFDE832B3244160021E4BE /* NetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetView.swift; sourceTree = "<group>"; };
 		88EFDE852B3248760021E4BE /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		88F5F3622B4274830036E769 /* NetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8810A2A32B422627006EC6B0 /* NetModel.swift */,
+				88F5F3622B4274830036E769 /* NetViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				88EFDE842B3244160021E4BE /* NetView.swift in Sources */,
 				88EFDE862B3248760021E4BE /* ResultsView.swift in Sources */,
+				88F5F3632B4274830036E769 /* NetViewModel.swift in Sources */,
 				88EFDE592B323D970021E4BE /* ContentView.swift in Sources */,
 				8810A2A42B422627006EC6B0 /* NetModel.swift in Sources */,
 				88EFDE572B323D970021E4BE /* NetScanApp.swift in Sources */,
