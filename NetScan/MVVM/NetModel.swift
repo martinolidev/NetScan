@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 struct portContent: Codable {
-    var ports: [String]
+    var portNumbers: [String]
 }
 
 class NetModel {
@@ -19,7 +19,7 @@ class NetModel {
     var url: String = "http://192.168.1.147:8080"
     
     init () {
-        portInformation = portContent(ports: ["8080"])
+        portInformation = portContent(portNumbers: ["8080"])
     }
     
     func sendInformation() -> portContent {
@@ -27,7 +27,7 @@ class NetModel {
             response in
             
             if let content = response.value {
-                self.portInformation = portContent(ports: content.ports)
+                self.portInformation = portContent(portNumbers: content.portNumbers)
             } else {
                 print(response.error?.responseCode ?? "No code error")
             }
