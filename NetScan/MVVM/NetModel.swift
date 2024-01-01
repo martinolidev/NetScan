@@ -16,13 +16,13 @@ class NetModel {
     
     var portInformation: portContent
     //Change this IP to your server IP with my API
-    var url: String = "http://192.168.1.147:8080"
+    var url: String = "http://192.168.1.147:8080/ip/"
     
     init () {
         portInformation = portContent(portNumbers: ["8080"])
     }
     
-    func sendInformation() -> portContent {
+    func sendInformation(ip: String) -> portContent {
         AF.request(url, method: .get).validate(statusCode: 200...299).responseDecodable(of: portContent.self) {
             response in
             
