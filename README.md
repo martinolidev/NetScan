@@ -1,6 +1,5 @@
 # NetScan - iOS Client for rustscan API
-
-![DALL·E 2023-12-19 15 30 59 - Minimalist design featuring an eye symbol and a network motif emerging from a cellphone resembling an iPhone, in shades of purple, size 1920x1080](https://github.com/martinolidev/NetScan/assets/149841273/01aa9857-9568-4402-8e29-cb170513eb07)
+![Scan networks](https://github.com/martinolidev/NetScan/assets/149841273/4b8cc421-bf68-4b6f-a0a0-747cb9c512a9)
 
 ## Overview
 NetScan is an iOS application designed to interface with the custom rustscan API. It provides users with a powerful yet user-friendly tool for network scanning and analysis, leveraging the capabilities of Nmap in a mobile-friendly format.
